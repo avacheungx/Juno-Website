@@ -3,7 +3,7 @@ function Personal() {
     {
       title: "Rock Climbing",
       description: "Climber at gyms and outdoors, always tackling new routes and pushing my limits. Climbing teaches patience and creative problem-solving.",
-      stats: "Competitive Climbing @ NYU"
+      stats: "V4-5 Climber Status Achieved"
     },
     {
       title: "Hiking & Outdoors",
@@ -40,11 +40,10 @@ function Personal() {
     <section id="personal" className="py-20 px-4 bg-black">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-blue-400">
-          Beyond the Code
+          Life in Motion
         </h2>
         <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-          When I'm not building software, here's what keeps me inspired and energized
-        </p>
+          A glimpse into the hobbies and experiences that fuel my curiosity.        </p>
 
         {/* Featured Story */}
         <div className="mb-12 bg-zinc-900 border border-blue-500/30 p-8 shadow-lg shadow-blue-500/10">
