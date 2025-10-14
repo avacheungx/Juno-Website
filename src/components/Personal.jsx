@@ -12,7 +12,7 @@ function Personal() {
     },
     {
       title: "Skateboarding",
-      description: "Skater at heart, always hunting for new spots and challenges to push my skills.",
+      description: "Skater at heart, always hunting for new spots and challenges to push my skills. Always looking for skate friends in NYC to explore the city and learn new tricks together.",
       stats: "Always Rolling"
     },
     {
