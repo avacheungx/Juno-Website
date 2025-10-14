@@ -1,81 +1,45 @@
 function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
-      image: "🛒",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Redis"],
+      title: "Bodega Cat Finder",
+      description: "Full-stack geolocation-based web application for discovering cats in NYC bodegas with real-time mapping and user-generated content.",
+      image: "🐱",
+      technologies: ["React", "TypeScript", "Python Flask", "PostgreSQL", "Google Maps API"],
       highlights: [
-        "Handles 10K+ daily transactions",
-        "99.9% uptime",
-        "Real-time analytics dashboard"
+        "Real-time geolocation with Google Maps integration",
+        "User authentication and photo upload functionality",
+        "RESTful API with advanced search/filtering",
+        "Docker containerization with CI/CD pipeline"
       ],
-      github: "#",
+      github: "https://github.com/avacheungx",
       demo: "#"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates, team workspaces, and advanced filtering.",
-      image: "✓",
-      technologies: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
+      title: "Resume Analyzer",
+      description: "Microservices-based resume evaluation tool with ML-powered skills extraction and job recommendations.",
+      image: "📄",
+      technologies: ["FastAPI", "Flask", "MongoDB", "Docker", "ML Algorithms"],
       highlights: [
-        "Real-time collaboration",
-        "Drag & drop interface",
-        "Mobile responsive design"
+        "Led team of 4 engineers in Agile environment",
+        "ML algorithms for skill extraction and job matching",
+        "80%+ code coverage with automated CI/CD",
+        "Reduced deployment time by 70%"
       ],
-      github: "#",
+      github: "https://github.com/avacheungx",
       demo: "#"
     },
     {
-      title: "AI Chat Assistant",
-      description: "Intelligent chatbot using natural language processing to provide customer support and automate responses.",
-      image: "🤖",
-      technologies: ["Python", "TensorFlow", "React", "WebSockets"],
+      title: "NyanDash - Endless Runner Game",
+      description: "Retro-style endless runner game featuring Nyan Cat with dynamic difficulty scaling and high score tracking.",
+      image: "🎮",
+      technologies: ["p5.js", "JavaScript", "HTML", "CSS"],
       highlights: [
-        "90% accuracy in intent recognition",
-        "Multi-language support",
-        "Self-learning capabilities"
+        "Inspired by Chrome Dinosaur Game",
+        "Dynamic difficulty scaling system",
+        "LocalStorage high score persistence",
+        "Single-button intuitive controls"
       ],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Weather Dashboard",
-      description: "Beautiful weather application with forecasts, historical data visualization, and location-based alerts.",
-      image: "🌤️",
-      technologies: ["React", "D3.js", "OpenWeather API", "Geolocation"],
-      highlights: [
-        "Interactive data visualizations",
-        "7-day forecast accuracy",
-        "Custom weather alerts"
-      ],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Social Media Analytics",
-      description: "Analytics platform for tracking social media metrics, engagement rates, and audience insights.",
-      image: "📊",
-      technologies: ["Vue.js", "Node.js", "PostgreSQL", "Chart.js"],
-      highlights: [
-        "Multi-platform integration",
-        "Real-time metrics tracking",
-        "Customizable reports"
-      ],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Fitness Tracker",
-      description: "Mobile-first fitness tracking app with workout plans, progress tracking, and nutritional guidance.",
-      image: "💪",
-      technologies: ["React Native", "Express", "MongoDB", "JWT"],
-      highlights: [
-        "Custom workout builder",
-        "Progress visualization",
-        "Social sharing features"
-      ],
-      github: "#",
+      github: "https://github.com/avacheungx",
       demo: "#"
     }
   ];

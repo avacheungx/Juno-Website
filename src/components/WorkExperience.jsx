@@ -4,71 +4,29 @@ function WorkExperience() {
       title: "IT Classroom Support Lead (CETG PT Captain)",
       company: "NYU Stern School of Business",
       location: "New York, NY",
-      period: "2024 - Present",
-      description: "Leading development of cloud-native applications and mentoring junior developers.",
+      period: "January 2024 - Present",
+      description: "Leading technical support operations and managing classroom IT infrastructure.",
       responsibilities: [
-        "Architected and deployed microservices handling 1M+ daily active users",
-        "Led team of 5 engineers in developing new product features",
-        "Reduced application load time by 60% through optimization",
-        "Implemented CI/CD pipelines reducing deployment time by 80%"
+        "Led troubleshooting and resolution of Tier 1 & Tier 2 technical incidents, reducing downtime by 20%",
+        "Managed classroom IT systems, AV equipment, and network infrastructure to ensure uninterrupted operations",
+        "Maintained IT asset inventory and enforced security and compliance protocols",
+        "Documented processes and trained staff on software, AV systems, and workflow procedures"
       ],
-      technologies: ["React", "Node.js", "AWS", "Docker", "Kubernetes"]
+      technologies: ["ServiceNow", "Jira", "ServiceLink", "Genesys", "Network Troubleshooting"]
     },
     {
       title: "IT Help Desk Analyst",
       company: "NYU Stern School of Business",
       location: "New York, NY",
-      period: "2023 - Present",
-      description: "Developed full-stack web applications for enterprise clients.",
+      period: "August 2023 - Present",
+      description: "Providing comprehensive technical support and system maintenance for faculty and students.",
       responsibilities: [
-        "Built responsive web applications using React and TypeScript",
-        "Designed and implemented RESTful APIs serving 100K+ requests/day",
-        "Collaborated with UX team to improve user engagement by 45%",
-        "Mentored 3 interns and conducted code reviews"
+        "Handled incoming support requests via Genesys, ServiceLink, and ServiceNow, resolving hardware/software issues efficiently",
+        "Analyzed recurring technical issues and recommended workflow improvements, streamlining support procedures",
+        "Conducted regular system audits and performance checks to maintain classroom and office IT infrastructure",
+        "Provided AV support and hardware repair services"
       ],
-      technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis"]
-    },
-    {
-      title: "Crew",
-      company: "Vital Climbing Gym",
-      location: "New York, NY",
-      period: "2024 - 2025",
-      description: "Contributed to various web development projects in an agile environment.",
-      responsibilities: [
-        "Developed features for customer-facing web applications",
-        "Fixed bugs and improved application performance",
-        "Participated in daily standups and sprint planning",
-        "Wrote unit tests achieving 85% code coverage"
-      ],
-      technologies: ["JavaScript", "React", "Express", "MongoDB"]
-    },
-    {
-      title: "Medical Receptionist",
-      company: "Ren Wellness",
-      location: "New York, NY",
-      period: "2023-2023",
-      description: "Contributed to various web development projects in an agile environment.",
-      responsibilities: [
-        "Developed features for customer-facing web applications",
-        "Fixed bugs and improved application performance",
-        "Participated in daily standups and sprint planning",
-        "Wrote unit tests achieving 85% code coverage"
-      ],
-      technologies: ["JavaScript", "React", "Express", "MongoDB"]
-    },
-    {
-      title: "Climbing Assistant",
-      company: "Movement Climbing Gym",
-      location: "New York, NY",
-      period: "2022-2022",
-      description: "Contributed to various web development projects in an agile environment.",
-      responsibilities: [
-        "Developed features for customer-facing web applications",
-        "Fixed bugs and improved application performance",
-        "Participated in daily standups and sprint planning",
-        "Wrote unit tests achieving 85% code coverage"
-      ],
-      technologies: ["JavaScript", "React", "Express", "MongoDB"]
+      technologies: ["ServiceNow", "Genesys", "ServiceLink", "Mindbody POS", "AV Systems"]
     }
   ];
 

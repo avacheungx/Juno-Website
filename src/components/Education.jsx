@@ -1,29 +1,17 @@
 function Education() {
   const educationData = [
     {
-      degree: "Master of Science in Computer Science",
-      school: "University of Technology",
-      location: "San Francisco, CA",
-      period: "2020 - 2022",
-      description: "Specialized in Machine Learning and Distributed Systems. GPA: 3.9/4.0",
+      degree: "B.A. in Computer Science",
+      school: "New York University | Courant Institute of Mathematical Sciences",
+      location: "New York, NY",
+      period: "September 2022 - May 2026",
+      description: "Minor in Web Programming and Application",
       achievements: [
-        "Published research on neural networks",
-        "Teaching Assistant for Advanced Algorithms",
-        "President of Women in Tech Club"
+        "Relevant Courses: Data Structures, Computer Systems Organizations, Basic Algorithms, Operating Systems",
+        "Software Engineering, Web Development, Applied Internet Technology",
+        "Agile Development and DevOps"
       ]
     },
-    {
-      degree: "Bachelor of Science in Software Engineering",
-      school: "State University",
-      location: "Seattle, WA",
-      period: "2016 - 2020",
-      description: "Graduated Summa Cum Laude with honors in Software Engineering",
-      achievements: [
-        "Dean's List all semesters",
-        "First place in University Hackathon 2019",
-        "Computer Science Department Award"
-      ]
-    }
   ];
 
   return (

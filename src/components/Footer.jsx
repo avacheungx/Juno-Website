@@ -2,10 +2,10 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { name: "GitHub", url: "#", icon: "github" },
-    { name: "LinkedIn", url: "#", icon: "linkedin" },
+    { name: "GitHub", url: "https://github.com/avacheungx", icon: "github" },
+    { name: "LinkedIn", url: "https://linkedin.com/in/avacheung", icon: "linkedin" },
     { name: "Twitter", url: "#", icon: "twitter" },
-    { name: "Email", url: "mailto:juno@example.com", icon: "email" }
+    { name: "Email", url: "mailto:avacheung17@gmail.com", icon: "email" }
   ];
 
   return (
@@ -62,10 +62,13 @@ function Footer() {
             </div>
             <div className="mt-6">
               <p className="text-gray-300 text-sm">
-                📧 juno@example.com
+                📧 avacheung17@gmail.com
               </p>
               <p className="text-gray-300 text-sm mt-1">
-                📍 San Francisco, CA
+                📱 (516) 643-9325
+              </p>
+              <p className="text-gray-300 text-sm mt-1">
+                📍 New York, NY
               </p>
             </div>
           </div>

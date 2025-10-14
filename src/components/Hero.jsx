@@ -19,13 +19,13 @@ function Hero() {
 
         {/* Title/Tagline */}
         <p className="text-xl md:text-2xl text-gray-600 mb-8">
-          Full Stack Developer | Problem Solver | Adventure Seeker
+          Full Stack Developer | CS @ NYU | IT Support Lead
         </p>
 
         {/* Short Bio */}
         <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-12 leading-relaxed">
-          Passionate about building elegant solutions to complex problems.
-          When I'm not coding, you'll find me scaling mountains or exploring new trails.
+          Computer Science student at NYU building full-stack applications and leading technical support operations.
+          Passionate about creating efficient solutions and helping teams succeed through technology.
         </p>
 
         {/* CTA Buttons */}

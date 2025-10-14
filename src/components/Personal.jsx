@@ -1,40 +1,40 @@
 function Personal() {
   const interests = [
     {
-      title: "Mountain Hiking",
-      icon: "🏔️",
-      description: "I love exploring mountain trails and challenging myself with long-distance hikes. My goal is to hike all the major peaks in the Pacific Northwest.",
-      stats: "50+ trails completed"
-    },
-    {
       title: "Rock Climbing",
       icon: "🧗",
-      description: "Indoor and outdoor climbing enthusiast. Currently working on improving my lead climbing skills and tackling more challenging routes.",
-      stats: "V5 bouldering grade"
+      description: "Passionate climber working at climbing gyms and spending free time on the wall. Climbing teaches me problem-solving and perseverance.",
+      stats: "Active climbing crew member"
     },
     {
-      title: "Photography",
-      icon: "📸",
-      description: "Capturing landscapes and nature during my outdoor adventures. I especially enjoy golden hour shots and long exposure photography.",
-      stats: "1000+ photos taken"
+      title: "Hiking & Outdoors",
+      icon: "🏔️",
+      description: "Love exploring trails and challenging myself with outdoor adventures. Nature provides the best debugging environment!",
+      stats: "Weekend trail explorer"
     },
     {
-      title: "Reading",
+      title: "Certifications",
       icon: "📚",
-      description: "Avid reader of science fiction, technical books, and philosophy. Always have a book in my backpack for those quiet moments in nature.",
-      stats: "30+ books/year"
+      description: "Currently pursuing Google IT Support Professional Certificate and CompTIA A+ Certification to expand my technical expertise.",
+      stats: "Expected November 2025"
     },
     {
-      title: "Cooking",
-      icon: "👨‍🍳",
-      description: "Love experimenting with international cuisines and healthy meal prep. Cooking is my creative outlet outside of coding.",
-      stats: "Weekly meal prep"
+      title: "Tech Projects",
+      icon: "💻",
+      description: "Always building something new - from web apps to games. Love experimenting with new frameworks and technologies.",
+      stats: "Multiple projects deployed"
     },
     {
-      title: "Travel",
-      icon: "✈️",
-      description: "Passionate about exploring new cultures and countries. I try to combine work trips with adventure and local experiences.",
-      stats: "15+ countries visited"
+      title: "Teaching & Mentoring",
+      icon: "🎓",
+      description: "Enjoy helping others learn technology through training staff and documenting processes at work.",
+      stats: "Training & documentation"
+    },
+    {
+      title: "Problem Solving",
+      icon: "🎯",
+      description: "Whether it's debugging code or troubleshooting IT systems, I love tackling complex challenges and finding elegant solutions.",
+      stats: "Daily puzzles solved"
     }
   ];
 
@@ -58,17 +58,17 @@ function Personal() {
             </div>
             <div className="md:w-2/3">
               <h3 className="text-3xl font-bold text-gray-800 mb-4">
-                Adventure Seeker at Heart
+                Climber, Coder, Problem Solver
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                My passion for the outdoors mirrors my approach to problem-solving in code.
-                Whether I'm debugging a complex system or navigating a challenging trail,
+                My passion for rock climbing mirrors my approach to technical challenges.
+                Whether I'm debugging a complex system, troubleshooting IT infrastructure, or finding the right hold on a climbing route,
                 I embrace the journey, learn from setbacks, and celebrate the victories along the way.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                The patience and perseverance required for reaching a summit has taught me
+                The patience and problem-solving skills required in climbing have taught me
                 invaluable lessons about tackling ambitious projects and never giving up,
-                no matter how steep the climb.
+                no matter how difficult the challenge.
               </p>
             </div>
           </div>
@@ -100,9 +100,9 @@ function Personal() {
         {/* Quote */}
         <div className="mt-12 text-center">
           <blockquote className="text-2xl md:text-3xl font-serif italic text-gray-700 max-w-3xl mx-auto">
-            "The mountains are calling and I must go... right after I finish this code review."
+            "The wall is calling and I must climb... right after I deploy this fix."
           </blockquote>
-          <p className="text-gray-500 mt-4">- A Developer's Dilemma</p>
+          <p className="text-gray-500 mt-4">- A Developer-Climber's Dilemma</p>
         </div>
       </div>
     </section>

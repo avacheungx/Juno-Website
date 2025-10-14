@@ -1,51 +1,51 @@
 function Skills() {
   const skillCategories = [
     {
-      category: "Frontend Development",
+      category: "Programming Languages",
       icon: "💻",
       skills: [
-        { name: "React", level: 95 },
-        { name: "JavaScript/ES6+", level: 90 },
-        { name: "TypeScript", level: 85 },
-        { name: "HTML/CSS", level: 95 },
-        { name: "Tailwind CSS", level: 90 },
-        { name: "Vue.js", level: 75 }
+        { name: "JavaScript", level: 90 },
+        { name: "Python", level: 85 },
+        { name: "Java", level: 80 },
+        { name: "C/C++", level: 75 },
+        { name: "HTML/CSS", level: 90 },
+        { name: "Bash", level: 70 }
       ]
     },
     {
-      category: "Backend Development",
+      category: "Frameworks & Libraries",
       icon: "⚙️",
       skills: [
-        { name: "Node.js", level: 90 },
-        { name: "Express", level: 85 },
-        { name: "Python", level: 80 },
-        { name: "RESTful APIs", level: 90 },
-        { name: "GraphQL", level: 75 },
-        { name: "PostgreSQL", level: 85 }
+        { name: "React.js", level: 90 },
+        { name: "Vue.js", level: 80 },
+        { name: "Flask", level: 85 },
+        { name: "FastAPI", level: 85 },
+        { name: "Express.js", level: 80 },
+        { name: "Django", level: 75 }
       ]
     },
     {
       category: "DevOps & Tools",
       icon: "🛠️",
       skills: [
-        { name: "Git", level: 90 },
         { name: "Docker", level: 85 },
-        { name: "AWS", level: 80 },
-        { name: "CI/CD", level: 85 },
-        { name: "Kubernetes", level: 70 },
-        { name: "Linux", level: 80 }
+        { name: "Git", level: 90 },
+        { name: "MongoDB", level: 80 },
+        { name: "PostgreSQL", level: 85 },
+        { name: "Google Maps API", level: 80 },
+        { name: "Figma", level: 75 }
       ]
     },
     {
-      category: "Other Technologies",
-      icon: "🚀",
+      category: "IT & Enterprise Tools",
+      icon: "🔧",
       skills: [
-        { name: "MongoDB", level: 85 },
-        { name: "Redis", level: 75 },
-        { name: "WebSockets", level: 80 },
-        { name: "Webpack", level: 75 },
-        { name: "Jest/Testing", level: 85 },
-        { name: "Agile/Scrum", level: 90 }
+        { name: "ServiceNow", level: 90 },
+        { name: "Jira", level: 85 },
+        { name: "Network Troubleshooting", level: 85 },
+        { name: "AV Support", level: 90 },
+        { name: "Hardware Repair", level: 80 },
+        { name: "Technical Documentation", level: 85 }
       ]
     }
   ];
@@ -106,12 +106,12 @@ function Skills() {
             {[
               "Problem Solving",
               "Team Leadership",
-              "Communication",
-              "Critical Thinking",
-              "Project Management",
-              "Mentoring",
-              "Agile Methodologies",
-              "Code Review"
+              "Agile Development",
+              "DevOps",
+              "Technical Support",
+              "System Administration",
+              "Process Documentation",
+              "Staff Training"
             ].map((skill, index) => (
               <div
                 key={index}
