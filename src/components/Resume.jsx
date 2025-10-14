@@ -1,5 +1,5 @@
 function Resume() {
-  const resumePdfPath = "/images/Juno_Cheung_IT_Resume.pdf";
+  const resumePdfPath = `${import.meta.env.BASE_URL}images/Juno_Cheung_IT_Resume.pdf`;
 
   return (
     <section id="resume" className="py-20 px-4 bg-black">

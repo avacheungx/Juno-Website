@@ -18,7 +18,7 @@ function Hero() {
             <div className="w-72 h-72 border border-blue-500/20"></div>
           </div>
           <img 
-            src="/images/profile/profile.jpg" 
+            src={`${import.meta.env.BASE_URL}images/profile/profile.jpg`}
             alt="Juno (Ava) Hope Cheung" 
             className="w-64 h-64 mx-auto object-cover border-4 border-blue-500 shadow-2xl shadow-blue-500/30 rounded-full relative z-10"
           />
