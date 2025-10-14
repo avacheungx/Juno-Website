@@ -33,7 +33,7 @@ function WorkExperience() {
       company: "Vital Climbing Gyms",
       location: "New York, NY",
       period: "October 2024 - October 2025",
-      description: "Providing comprehensive technical support and system maintenance for faculty and students.",
+      description: "Provided front desk and technical support in a fast-paced climbing gym, managing member operations and troubleshooting the Mindbody POS system.",
       responsibilities: [
         "Handled incoming support requests via Genesys, ServiceLink, and ServiceNow, resolving hardware/software issues efficiently",
         "Analyzed recurring technical issues and recommended workflow improvements, streamlining support procedures",
@@ -47,7 +47,7 @@ function WorkExperience() {
       company: "Movement Valhalla",
       location: "Valhalla, NY",
       period: "March 2022 - August 2022",
-      description: "Providing comprehensive technical support and system maintenance for faculty and students.",
+      description: "Delivered exceptional member support and instruction, managing digital systems, resolving account issues, and fostering a positive climbing community.",
       responsibilities: [
         "Delivered exceptional customer service by assisting members with check-ins, belay tests, and class registrations using RGP POS and scheduling systems.",
         "Troubleshot membership and payment issues while maintaining accurate digital records and supporting daily operations.",

@@ -4,7 +4,6 @@ function Footer() {
   const socialLinks = [
     { name: "GitHub", url: "https://github.com/avacheungx", icon: "github" },
     { name: "LinkedIn", url: "https://linkedin.com/in/avacheung", icon: "linkedin" },
-    { name: "Twitter", url: "#", icon: "twitter" },
     { name: "Email", url: "mailto:avacheung17@gmail.com", icon: "email" }
   ];
 
@@ -18,8 +17,7 @@ function Footer() {
               Juno Hope Cheung
             </h3>
             <p className="text-gray-300 leading-relaxed">
-              Full Stack Developer passionate about creating elegant solutions
-              and exploring the great outdoors.
+            Senior at NYU passionate about technology, problem-solving, and creating smooth experiences for users and systems alike.
             </p>
           </div>
 

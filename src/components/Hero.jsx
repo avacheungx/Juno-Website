@@ -5,11 +5,13 @@ function Hero() {
       className="min-h-screen flex items-center justify-center px-4 pt-16"
     >
       <div className="max-w-4xl mx-auto text-center">
-        {/* Profile Image Placeholder */}
+        {/* Profile Image */}
         <div className="mb-8">
-          <div className="w-40 h-40 mx-auto bg-zinc-800 border-2 border-blue-500 flex items-center justify-center shadow-2xl shadow-blue-500/20">
-            <span className="text-blue-400 text-6xl font-bold">JHC</span>
-          </div>
+          <img 
+            src="/images/profile/profile.jpg" 
+            alt="Juno (Ava) Hope Cheung" 
+            className="w-40 h-40 mx-auto object-cover border-2 border-blue-500 shadow-2xl shadow-blue-500/20 rounded-full"
+          />
         </div>
 
         {/* Name */}
@@ -19,13 +21,12 @@ function Hero() {
 
         {/* Title/Tagline */}
         <p className="text-xl md:text-2xl text-gray-400 mb-8">
-          Full Stack Developer | CS @ NYU | IT Support Lead
+          CS @ NYU | IT Support Lead
         </p>
 
         {/* Short Bio */}
         <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-12 leading-relaxed">
-          Computer Science student at NYU building full-stack applications and leading technical support operations.
-          Passionate about creating efficient solutions and helping teams succeed through technology.
+          Senior Computer Science student at NYU focused on bridging people and technology, using curiosity and analytics to make systems work better for everyone.
         </p>
 
         {/* CTA Buttons */}
