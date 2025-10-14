@@ -18,6 +18,7 @@ function Navbar() {
     { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Resume', href: '#resume' },
     { name: 'Personal', href: '#personal' },
   ];
 
@@ -45,7 +46,7 @@ function Navbar() {
             <a
               href="#home"
               onClick={(e) => scrollToSection(e, '#home')}
-              className="text-xl font-bold text-blue-400 hover:text-blue-300 transition-colors"
+              className="text-2xl font-bold text-blue-400 hover:text-blue-300 transition-colors"
             >
               JHC
             </a>
@@ -58,7 +59,7 @@ function Navbar() {
                 key={item.name}
                 href={item.href}
                 onClick={(e) => scrollToSection(e, item.href)}
-                className="text-gray-300 hover:text-blue-400 transition-colors duration-200 font-medium"
+                className="text-gray-300 hover:text-blue-400 transition-colors duration-200 font-medium text-lg"
               >
                 {item.name}
               </a>
@@ -100,7 +101,7 @@ function Navbar() {
                 key={item.name}
                 href={item.href}
                 onClick={(e) => scrollToSection(e, item.href)}
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-blue-400 hover:bg-zinc-800 transition-colors duration-200"
+                className="block px-3 py-2 rounded-md text-lg font-medium text-gray-300 hover:text-blue-400 hover:bg-zinc-800 transition-colors duration-200"
               >
                 {item.name}
               </a>

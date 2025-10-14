@@ -12,6 +12,29 @@ function Education() {
     },
   ];
 
+  const clubs = [
+    {
+      name: "Society of Women Engineers",
+      role: "Active Member",
+      description: "Participating in professional development and networking events to support women in engineering and technology fields."
+    },
+    {
+      name: "Tech at NYU",
+      role: "Active Member",
+      description: "Engaging with the tech community at NYU through workshops, hackathons, and tech talks."
+    },
+    {
+      name: "GirlsWhoCode",
+      role: "Active Member",
+      description: "Supporting women in computing through mentorship and community building."
+    },
+    {
+      name: "Hong Kong Student Association",
+      role: "Active Member",
+      description: "Connecting with fellow Hong Kong students and celebrating cultural heritage."
+    }
+  ];
+
   return (
     <section id="education" className="py-20 px-4 bg-black">
       <div className="max-w-6xl mx-auto">
@@ -68,6 +91,31 @@ function Education() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Campus Involvement Section */}
+        <div className="mt-16">
+          <h3 className="text-3xl font-bold text-center mb-8 text-blue-400">
+            Campus Involvement
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {clubs.map((club, index) => (
+              <div
+                key={index}
+                className="bg-zinc-900 border border-blue-500/30 p-6 hover:border-blue-500 transition-all duration-300 shadow-lg shadow-blue-500/10"
+              >
+                <h4 className="text-xl font-bold text-white mb-2">
+                  {club.name}
+                </h4>
+                <p className="text-blue-400 font-semibold mb-3">
+                  {club.role}
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  {club.description}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

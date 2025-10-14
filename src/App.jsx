@@ -6,6 +6,7 @@ import WorkExperience from './components/WorkExperience';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Personal from './components/Personal';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <WorkExperience />
         <Skills />
         <Projects />
+        <Resume />
         <Personal />
       </main>
       <Footer />

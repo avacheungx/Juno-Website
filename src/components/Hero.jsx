@@ -13,8 +13,8 @@ function Hero() {
 
       <div className="max-w-5xl mx-auto text-center relative z-10">
         {/* Profile Image */}
-        <div className="mb-10 relative">
-          <div className="absolute inset-0 flex items-center justify-center">
+        <div className="mb-16 relative">
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <div className="w-72 h-72 border border-blue-500/20"></div>
           </div>
           <img 
@@ -59,26 +59,6 @@ function Hero() {
           >
             Get to Know Me
           </a>
-        </div>
-
-        {/* Quick Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto mb-12">
-          <div className="bg-black border border-blue-500/30 p-4">
-            <div className="text-3xl font-bold text-blue-400">3+</div>
-            <div className="text-sm text-gray-400">Projects</div>
-          </div>
-          <div className="bg-black border border-blue-500/30 p-4">
-            <div className="text-3xl font-bold text-blue-400">5</div>
-            <div className="text-sm text-gray-400">Clubs</div>
-          </div>
-          <div className="bg-black border border-blue-500/30 p-4">
-            <div className="text-3xl font-bold text-blue-400">2</div>
-            <div className="text-sm text-gray-400">Certifications</div>
-          </div>
-          <div className="bg-black border border-blue-500/30 p-4">
-            <div className="text-3xl font-bold text-blue-400">NYU</div>
-            <div className="text-sm text-gray-400">Class of '26</div>
-          </div>
         </div>
 
         {/* Scroll Indicator */}
