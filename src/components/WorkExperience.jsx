@@ -27,6 +27,33 @@ function WorkExperience() {
         "Provided AV support and hardware repair services"
       ],
       technologies: ["ServiceNow", "Genesys", "ServiceLink", "AV Systems"]
+    },
+    {
+      title: "Crew",
+      company: "Vital Climbing Gyms",
+      location: "New York, NY",
+      period: "October 2024 - October 2025",
+      description: "Providing comprehensive technical support and system maintenance for faculty and students.",
+      responsibilities: [
+        "Handled incoming support requests via Genesys, ServiceLink, and ServiceNow, resolving hardware/software issues efficiently",
+        "Analyzed recurring technical issues and recommended workflow improvements, streamlining support procedures",
+        "Conducted regular system audits and performance checks to maintain classroom and office IT infrastructure",
+        "Provided AV support and hardware repair services"
+      ],
+      technologies: ["Customer Service", "Technical Troubleshooting", "POS Systems (Mindbody)", "Data Entry" , "Operations Support"]
+    },
+    {
+      title: "Climbing Assistant",
+      company: "Movement Valhalla",
+      location: "Valhalla, NY",
+      period: "March 2022 - August 2022",
+      description: "Providing comprehensive technical support and system maintenance for faculty and students.",
+      responsibilities: [
+        "Delivered exceptional customer service by assisting members with check-ins, belay tests, and class registrations using RGP POS and scheduling systems.",
+        "Troubleshot membership and payment issues while maintaining accurate digital records and supporting daily operations.",
+        "Promoted memberships, programs, and retail products while maintaining facility cleanliness and a welcoming community environment.",
+      ],
+      technologies: ["Customer Service", "Retail", "Team Collaboration"]
     }
   ];
 
