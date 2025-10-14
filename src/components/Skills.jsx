@@ -8,8 +8,8 @@ function Skills() {
         { name: "HTML/CSS", level: 90 },
         { name: "Python", level: 80 },
         { name: "Java", level: 80 },
-        { name: "Bash", level: 75 }
-        { name: "C/C++", level: 70 },
+        { name: "Bash", level: 75 },
+        { name: "C/C++", level: 70 }
       ]
     },
     {
