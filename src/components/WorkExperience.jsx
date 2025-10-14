@@ -1,10 +1,10 @@
 function WorkExperience() {
   const experiences = [
     {
-      title: "Senior Software Engineer",
-      company: "Tech Innovations Inc.",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
+      title: "IT Classroom Support Lead (CETG PT Captain)",
+      company: "NYU Stern School of Business",
+      location: "New York, NY",
+      period: "2024 - Present",
       description: "Leading development of cloud-native applications and mentoring junior developers.",
       responsibilities: [
         "Architected and deployed microservices handling 1M+ daily active users",
@@ -15,10 +15,10 @@ function WorkExperience() {
       technologies: ["React", "Node.js", "AWS", "Docker", "Kubernetes"]
     },
     {
-      title: "Software Engineer",
-      company: "Digital Solutions Corp",
-      location: "Seattle, WA",
-      period: "2020 - 2022",
+      title: "IT Help Desk Analyst",
+      company: "NYU Stern School of Business",
+      location: "New York, NY",
+      period: "2023 - Present",
       description: "Developed full-stack web applications for enterprise clients.",
       responsibilities: [
         "Built responsive web applications using React and TypeScript",
@@ -29,10 +29,38 @@ function WorkExperience() {
       technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis"]
     },
     {
-      title: "Junior Developer",
-      company: "StartUp Ventures",
-      location: "San Jose, CA",
-      period: "2019 - 2020",
+      title: "Crew",
+      company: "Vital Climbing Gym",
+      location: "New York, NY",
+      period: "2024 - 2025",
+      description: "Contributed to various web development projects in an agile environment.",
+      responsibilities: [
+        "Developed features for customer-facing web applications",
+        "Fixed bugs and improved application performance",
+        "Participated in daily standups and sprint planning",
+        "Wrote unit tests achieving 85% code coverage"
+      ],
+      technologies: ["JavaScript", "React", "Express", "MongoDB"]
+    },
+    {
+      title: "Medical Receptionist",
+      company: "Ren Wellness",
+      location: "New York, NY",
+      period: "2023-2023",
+      description: "Contributed to various web development projects in an agile environment.",
+      responsibilities: [
+        "Developed features for customer-facing web applications",
+        "Fixed bugs and improved application performance",
+        "Participated in daily standups and sprint planning",
+        "Wrote unit tests achieving 85% code coverage"
+      ],
+      technologies: ["JavaScript", "React", "Express", "MongoDB"]
+    },
+    {
+      title: "Climbing Assistant",
+      company: "Movement Climbing Gym",
+      location: "New York, NY",
+      period: "2022-2022",
       description: "Contributed to various web development projects in an agile environment.",
       responsibilities: [
         "Developed features for customer-facing web applications",
