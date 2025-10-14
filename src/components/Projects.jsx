@@ -45,12 +45,12 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-20 px-4 bg-gradient-to-br from-slate-50 to-blue-50">
+    <section id="projects" className="py-20 px-4 bg-zinc-900">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-blue-400">
           Projects
         </h2>
-        <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
           A showcase of my recent work and personal projects
         </p>
 
@@ -58,19 +58,19 @@ function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+              className="bg-black border border-blue-500/30 overflow-hidden hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2 shadow-lg shadow-blue-500/10"
             >
               {/* Project Image/Icon */}
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+              <div className="h-48 bg-zinc-900 border-b border-blue-500/30 flex items-center justify-center">
                 <span className="text-8xl">{project.image}</span>
               </div>
 
               {/* Project Content */}
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-800 mb-3">
+                <h3 className="text-2xl font-bold text-white mb-3">
                   {project.title}
                 </h3>
-                <p className="text-gray-600 mb-4 line-clamp-3">
+                <p className="text-gray-300 mb-4 line-clamp-3">
                   {project.description}
                 </p>
 
@@ -79,7 +79,7 @@ function Projects() {
                   {project.technologies.map((tech, i) => (
                     <span
                       key={i}
-                      className="px-2 py-1 bg-blue-100 text-blue-700 rounded-md text-xs font-medium"
+                      className="px-2 py-1 bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-medium"
                     >
                       {tech}
                     </span>
@@ -92,7 +92,7 @@ function Projects() {
                     {project.highlights.map((highlight, i) => (
                       <li key={i} className="flex items-start text-sm">
                         <svg
-                          className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0"
+                          className="w-4 h-4 text-blue-500 mr-2 mt-0.5 flex-shrink-0"
                           fill="currentColor"
                           viewBox="0 0 20 20"
                         >
@@ -102,7 +102,7 @@ function Projects() {
                             clipRule="evenodd"
                           />
                         </svg>
-                        <span className="text-gray-700">{highlight}</span>
+                        <span className="text-gray-300">{highlight}</span>
                       </li>
                     ))}
                   </ul>
@@ -112,13 +112,13 @@ function Projects() {
                 <div className="flex gap-3">
                   <a
                     href={project.github}
-                    className="flex-1 px-4 py-2 bg-gray-800 text-white rounded-lg text-center font-medium hover:bg-gray-700 transition-colors duration-200"
+                    className="flex-1 px-4 py-2 bg-zinc-900 border border-blue-500/30 text-blue-400 text-center font-medium hover:bg-blue-500/10 hover:border-blue-500 transition-colors duration-200"
                   >
                     GitHub
                   </a>
                   <a
                     href={project.demo}
-                    className="flex-1 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg text-center font-medium hover:shadow-lg transition-all duration-200"
+                    className="flex-1 px-4 py-2 bg-blue-500 text-black text-center font-medium hover:bg-blue-400 transition-all duration-200"
                   >
                     Live Demo
                   </a>

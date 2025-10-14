@@ -12,7 +12,7 @@ function WorkExperience() {
         "Maintained IT asset inventory and enforced security and compliance protocols",
         "Documented processes and trained staff on software, AV systems, and workflow procedures"
       ],
-      technologies: ["ServiceNow", "Jira", "ServiceLink", "Genesys", "Network Troubleshooting"]
+      technologies: ["ServiceNow", "Genesys", "Network Troubleshooting", "Active Directory"]
     },
     {
       title: "IT Help Desk Analyst",
@@ -26,23 +26,23 @@ function WorkExperience() {
         "Conducted regular system audits and performance checks to maintain classroom and office IT infrastructure",
         "Provided AV support and hardware repair services"
       ],
-      technologies: ["ServiceNow", "Genesys", "ServiceLink", "Mindbody POS", "AV Systems"]
+      technologies: ["ServiceNow", "Genesys", "ServiceLink", "AV Systems"]
     }
   ];
 
   return (
-    <section id="experience" className="py-20 px-4 bg-gradient-to-br from-slate-50 to-blue-50">
+    <section id="experience" className="py-20 px-4 bg-zinc-900">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-blue-400">
           Work Experience
         </h2>
-        <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
           My professional journey in software development
         </p>
 
         <div className="relative">
           {/* Timeline line */}
-          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-blue-400 to-purple-400"></div>
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-500/30"></div>
 
           <div className="space-y-12">
             {experiences.map((exp, index) => (
@@ -53,39 +53,39 @@ function WorkExperience() {
                 }`}
               >
                 {/* Timeline dot */}
-                <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg"></div>
+                <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-500 border-4 border-black shadow-lg shadow-blue-500/50"></div>
 
                 {/* Content */}
                 <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
-                  <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+                  <div className="bg-black border border-blue-500/30 p-6 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-blue-500/10">
                     <div className="mb-4">
                       <div className="flex items-start justify-between mb-2">
-                        <h3 className="text-2xl font-bold text-gray-800">
+                        <h3 className="text-2xl font-bold text-white">
                           {exp.title}
                         </h3>
                       </div>
-                      <p className="text-xl text-blue-600 font-semibold mb-1">
+                      <p className="text-xl text-blue-400 font-semibold mb-1">
                         {exp.company}
                       </p>
-                      <p className="text-gray-600 text-sm mb-2">{exp.location}</p>
-                      <div className="inline-block bg-gradient-to-r from-blue-100 to-purple-100 px-3 py-1 rounded-full">
-                        <span className="text-gray-700 font-medium text-sm">
+                      <p className="text-gray-400 text-sm mb-2">{exp.location}</p>
+                      <div className="inline-block bg-blue-500/10 border border-blue-500/30 px-3 py-1">
+                        <span className="text-blue-400 font-medium text-sm">
                           {exp.period}
                         </span>
                       </div>
                     </div>
 
-                    <p className="text-gray-700 mb-4">{exp.description}</p>
+                    <p className="text-gray-300 mb-4">{exp.description}</p>
 
                     <div className="mb-4">
-                      <h4 className="font-semibold text-gray-800 mb-2">
+                      <h4 className="font-semibold text-white mb-2">
                         Key Responsibilities:
                       </h4>
                       <ul className="space-y-2">
                         {exp.responsibilities.map((resp, i) => (
                           <li key={i} className="flex items-start text-sm">
                             <svg
-                              className="w-4 h-4 text-blue-600 mr-2 mt-0.5 flex-shrink-0"
+                              className="w-4 h-4 text-blue-500 mr-2 mt-0.5 flex-shrink-0"
                               fill="currentColor"
                               viewBox="0 0 20 20"
                             >
@@ -95,7 +95,7 @@ function WorkExperience() {
                                 clipRule="evenodd"
                               />
                             </svg>
-                            <span className="text-gray-700">{resp}</span>
+                            <span className="text-gray-300">{resp}</span>
                           </li>
                         ))}
                       </ul>
@@ -105,7 +105,7 @@ function WorkExperience() {
                       {exp.technologies.map((tech, i) => (
                         <span
                           key={i}
-                          className="px-3 py-1 bg-gradient-to-r from-blue-100 to-blue-50 text-blue-700 rounded-full text-xs font-medium"
+                          className="px-3 py-1 bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-medium"
                         >
                           {tech}
                         </span>

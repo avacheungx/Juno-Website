@@ -9,12 +9,12 @@ function Footer() {
   ];
 
   return (
-    <footer className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-12 px-4">
+    <footer className="bg-black border-t border-blue-500/30 text-white py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* About Section */}
           <div>
-            <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <h3 className="text-2xl font-bold mb-4 text-blue-400">
               Juno Hope Cheung
             </h3>
             <p className="text-gray-300 leading-relaxed">
@@ -48,7 +48,7 @@ function Footer() {
                 <a
                   key={link.name}
                   href={link.url}
-                  className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-200"
+                  className="w-10 h-10 bg-zinc-900 border border-blue-500/30 flex items-center justify-center hover:bg-blue-500 hover:border-blue-500 transition-colors duration-200"
                   aria-label={link.name}
                 >
                   <span className="text-xl">
@@ -75,11 +75,11 @@ function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-blue-500/30 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
             © {currentYear} Juno Hope Cheung. All rights reserved.
           </p>
-          <p className="text-gray-400 text-sm">
+          <p className="text-blue-400 text-sm">
             Built with React, Tailwind CSS, and ❤️
           </p>
         </div>
