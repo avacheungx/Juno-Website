@@ -2,6 +2,8 @@
 
 A lovely modern personal portfolio website showcasing my background, skills, and projects.
 
+🌐 **Live Site**: [https://avacheungx.github.io/Juno-Website](https://avacheungx.github.io/Juno-Website)
+
 ## Tech Stack
 
 - **Frontend**: React
