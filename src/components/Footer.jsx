@@ -63,6 +63,9 @@ function Footer() {
                 📧 avacheung17@gmail.com
               </p>
               <p className="text-gray-300 text-sm mt-1">
+                🎓 ahc9434@nyu.edu
+              </p>
+              <p className="text-gray-300 text-sm mt-1">
                 📱 (516) 643-9325
               </p>
               <p className="text-gray-300 text-sm mt-1">

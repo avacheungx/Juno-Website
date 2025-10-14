@@ -4,7 +4,7 @@ function Personal() {
       title: "Rock Climbing",
       icon: "🧗",
       description: "Passionate climber working at climbing gyms and spending free time on the wall. Climbing teaches me problem-solving and perseverance.",
-      stats: "Active climbing crew member"
+      stats: "Competitive Climbing @ NYU"
     },
     {
       title: "Hiking & Outdoors",
@@ -13,22 +13,22 @@ function Personal() {
       stats: "Weekend trail explorer"
     },
     {
+      title: "Campus Involvement",
+      icon: "🎓",
+      description: "Active member of Society of Women Engineers, Tech at NYU, GirlsWhoCode, and Hong Kong Student Association.",
+      stats: "5 active organizations"
+    },
+    {
       title: "Certifications",
       icon: "📚",
       description: "Currently pursuing Google IT Support Professional Certificate and CompTIA A+ Certification to expand my technical expertise.",
-      stats: "Expected November 2025"
+      stats: "In Progress - Expected Nov 2025"
     },
     {
       title: "Tech Projects",
       icon: "💻",
       description: "Always building something new - from web apps to games. Love experimenting with new frameworks and technologies.",
       stats: "Multiple projects deployed"
-    },
-    {
-      title: "Teaching & Mentoring",
-      icon: "🎓",
-      description: "Enjoy helping others learn technology through training staff and documenting processes at work.",
-      stats: "Training & documentation"
     },
     {
       title: "Problem Solving",

@@ -11,8 +11,8 @@ function Projects() {
         "RESTful API with advanced search/filtering",
         "Docker containerization with CI/CD pipeline"
       ],
-      github: "https://github.com/avacheungx",
-      demo: "#"
+      github: "https://github.com/avacheungx/bodega-cat-finder",
+      demo: "https://avacheungx.github.io/bodega-cat-finder"
     },
     {
       title: "Resume Analyzer",
@@ -25,7 +25,7 @@ function Projects() {
         "80%+ code coverage with automated CI/CD",
         "Reduced deployment time by 70%"
       ],
-      github: "https://github.com/avacheungx",
+      github: "#",
       demo: "#"
     },
     {
@@ -39,8 +39,8 @@ function Projects() {
         "LocalStorage high score persistence",
         "Single-button intuitive controls"
       ],
-      github: "https://github.com/avacheungx",
-      demo: "#"
+      github: "https://github.com/avacheungx/nyandash",
+      demo: "https://avacheungx.github.io/nyandash"
     }
   ];
 
