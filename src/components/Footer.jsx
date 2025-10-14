@@ -46,30 +46,25 @@ function Footer() {
                 <a
                   key={link.name}
                   href={link.url}
-                  className="w-10 h-10 bg-zinc-900 border border-blue-500/30 flex items-center justify-center hover:bg-blue-500 hover:border-blue-500 transition-colors duration-200"
+                  className="px-4 py-2 bg-zinc-900 border border-blue-500/30 text-blue-400 font-medium hover:bg-blue-500 hover:text-black hover:border-blue-500 transition-colors duration-200"
                   aria-label={link.name}
                 >
-                  <span className="text-xl">
-                    {link.icon === 'github' && '⚡'}
-                    {link.icon === 'linkedin' && '💼'}
-                    {link.icon === 'twitter' && '🐦'}
-                    {link.icon === 'email' && '✉️'}
-                  </span>
+                  {link.name}
                 </a>
               ))}
             </div>
             <div className="mt-6">
               <p className="text-gray-300 text-sm">
-                📧 avacheung17@gmail.com
+                avacheung17@gmail.com
               </p>
               <p className="text-gray-300 text-sm mt-1">
-                🎓 ahc9434@nyu.edu
+                ahc9434@nyu.edu
               </p>
               <p className="text-gray-300 text-sm mt-1">
-                📱 (516) 643-9325
+                (516) 643-9325
               </p>
               <p className="text-gray-300 text-sm mt-1">
-                📍 New York, NY
+                New York, NY
               </p>
             </div>
           </div>
@@ -81,7 +76,7 @@ function Footer() {
             © {currentYear} Juno Hope Cheung. All rights reserved.
           </p>
           <p className="text-blue-400 text-sm">
-            Built with React, Tailwind CSS, and ❤️
+            Built with React & Tailwind CSS
           </p>
         </div>
       </div>

@@ -3,7 +3,6 @@ function Projects() {
     {
       title: "Bodega Cat Finder",
       description: "Full-stack geolocation-based web application for discovering cats in NYC bodegas with real-time mapping and user-generated content.",
-      image: "🐱",
       technologies: ["React", "TypeScript", "Python Flask", "PostgreSQL", "Google Maps API"],
       highlights: [
         "Real-time geolocation with Google Maps integration",
@@ -17,7 +16,6 @@ function Projects() {
     {
       title: "Resume Analyzer",
       description: "Microservices-based resume evaluation tool with ML-powered skills extraction and job recommendations.",
-      image: "📄",
       technologies: ["FastAPI", "Flask", "MongoDB", "Docker", "ML Algorithms"],
       highlights: [
         "Led team of 4 engineers in Agile environment",
@@ -31,7 +29,6 @@ function Projects() {
     {
       title: "NyanDash - Endless Runner Game",
       description: "Retro-style endless runner game featuring Nyan Cat with dynamic difficulty scaling and high score tracking.",
-      image: "🎮",
       technologies: ["p5.js", "JavaScript", "HTML", "CSS"],
       highlights: [
         "Inspired by Chrome Dinosaur Game",
@@ -60,11 +57,6 @@ function Projects() {
               key={index}
               className="bg-black border border-blue-500/30 overflow-hidden hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2 shadow-lg shadow-blue-500/10"
             >
-              {/* Project Image/Icon */}
-              <div className="h-48 bg-zinc-900 border-b border-blue-500/30 flex items-center justify-center">
-                <span className="text-8xl">{project.image}</span>
-              </div>
-
               {/* Project Content */}
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-white mb-3">
