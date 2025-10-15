@@ -35,10 +35,11 @@ function WorkExperience() {
       period: "October 2024 - October 2025",
       description: "Provided front desk and technical support in a fast-paced climbing gym, managing member operations and troubleshooting the Mindbody POS system.",
       responsibilities: [
-        "Handled incoming support requests via Genesys, ServiceLink, and ServiceNow, resolving hardware/software issues efficiently",
-        "Analyzed recurring technical issues and recommended workflow improvements, streamlining support procedures",
-        "Conducted regular system audits and performance checks to maintain classroom and office IT infrastructure",
-        "Provided AV support and hardware repair services"
+        "Delivered front desk support and exceptional customer service in a high-traffic gym environment",
+        "Supported daily operations and customer experience through troubleshooting and maintenance of the Mindbody POS and scheduling system",
+        "Managed member accounts, transactions, and data entry with accuracy and attention to detail",
+        "Maintained organized systems across retail, café, and facility operations to support daily workflowst",
+        "Collaborated with the team to improve front desk processes and enhance member experience."
       ],
       technologies: ["Customer Service", "Technical Troubleshooting", "POS Systems (Mindbody)", "Data Entry" , "Operations Support"]
     },
