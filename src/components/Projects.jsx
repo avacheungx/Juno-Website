@@ -11,7 +11,7 @@ function Projects() {
         "Docker containerization with CI/CD pipeline"
       ],
       github: "https://github.com/avacheungx/bodega-cat-finder",
-      demo: "https://avacheungx.github.io/bodega-cat-finder"
+      demo: "https://avacheungx.github.io/Bodega-Cat-FInder/"
     },
     {
       title: "Resume Analyzer",
@@ -37,7 +37,7 @@ function Projects() {
         "Single-button intuitive controls"
       ],
       github: "https://github.com/avacheungx/nyandash",
-      demo: "https://avacheungx.github.io/nyandash"
+      demo: "https://avacheungx.github.io/NyanDash/"
     }
   ];
 
