@@ -43,7 +43,8 @@ function Personal() {
           Life in Motion
         </h2>
         <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-          A glimpse into the hobbies and experiences that fuel my curiosity.        </p>
+          A glimpse into the hobbies and experiences that fuel my curiosity.
+        </p>
 
         {/* Featured Story */}
         <div className="mb-12 bg-zinc-900 border border-blue-500/30 p-8 shadow-lg shadow-blue-500/10">

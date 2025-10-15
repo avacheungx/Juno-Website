@@ -38,7 +38,7 @@ function WorkExperience() {
         "Delivered front desk support and exceptional customer service in a high-traffic gym environment",
         "Supported daily operations and customer experience through troubleshooting and maintenance of the Mindbody POS and scheduling system",
         "Managed member accounts, transactions, and data entry with accuracy and attention to detail",
-        "Maintained organized systems across retail, café, and facility operations to support daily workflowst",
+        "Maintained organized systems across retail, café, and facility operations to support daily workflows",
         "Collaborated with the team to improve front desk processes and enhance member experience."
       ],
       technologies: ["Customer Service", "Technical Troubleshooting", "POS Systems (Mindbody)", "Data Entry" , "Operations Support"]

@@ -7,7 +7,7 @@ function Education() {
       period: "September 2022 - May 2026",
       description: "Minor in Web Programming and Application",
       achievements: [
-        "Relevant Courses: Data Structures, Computer Systems Organizations, Basic Algorithms, Operating Systems, Software Engineering, Web Development, Applied Internet Technology,Agile Development and DevOps"
+        "Relevant Courses: Data Structures, Computer Systems Organizations, Basic Algorithms, Operating Systems, Software Engineering, Web Development, Applied Internet Technology, Agile Development and DevOps"
       ]
     },
   ];
