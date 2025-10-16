@@ -5,7 +5,6 @@ function Skills() {
       icon: "💻",
       skills: [
         { name: "JavaScript", level: 90 },
-        { name: "HTML/CSS", level: 90 },
         { name: "Python", level: 80 },
         { name: "Java", level: 80 },
         { name: "Bash", level: 75 },
