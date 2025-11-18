@@ -1,6 +1,19 @@
 function Projects() {
   const projects = [
     {
+      title: "SyncWave - Full-Stack Music Management Web App",
+      description: "Music discovery and playlist management web application for DJs using React.js, Node.js/Express, and MongoDB.",
+      technologies: ["React.js", "Node.js", "Express", "MongoDB", "Spotify API", "YouTube API", "Tailwind CSS"],
+      highlights: [
+        "Integrated Spotify Web API and YouTube Data API v3 for cross-platform track search",
+        "Automatic metadata extraction (BPM, key, genre) with token management",
+        "Real-time track compatibility tool with visual matching indicators for DJ sets",
+        "RESTful API with session-based authentication and advanced filtering"
+      ],
+      github: "https://github.com/avacheungx/syncwave",
+      demo: "https://final-project-avacheungx.onrender.com"
+    },
+    {
       title: "Bodega Cat Finder",
       description: "Full-stack geolocation-based web application for discovering cats in NYC bodegas with real-time mapping and user-generated content.",
       technologies: ["React", "TypeScript", "Python Flask", "PostgreSQL", "Google Maps API"],
