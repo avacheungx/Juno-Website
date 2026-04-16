@@ -1,5 +1,5 @@
 function Resume() {
-  const resumePdfPath = `${import.meta.env.BASE_URL}images/Juno_Cheung_IT_Resume.pdf`;
+  const resumePdfPath = `${import.meta.env.BASE_URL}images/Ava_Cheung_Resume.pdf`;
 
   return (
     <section id="resume" className="py-20 px-4 bg-black">
@@ -15,7 +15,7 @@ function Resume() {
         <div className="flex justify-center mb-8">
           <a
             href={resumePdfPath}
-            download="Juno_Cheung_IT_Resume.pdf"
+            download="Ava_Cheung_Resume.pdf"
             className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg shadow-blue-500/50 hover:shadow-blue-500/70 transform hover:-translate-y-1 flex items-center gap-2"
           >
             <svg 
