@@ -11,8 +11,6 @@ A lovely modern personal portfolio website showcasing my background, skills, and
 - **Build Tool**: Vite
 - **Deployment**: GitHub Pages
 
-## License
-
 ## 📧 Contact
 
 - Email: avacheung17@gmail.com

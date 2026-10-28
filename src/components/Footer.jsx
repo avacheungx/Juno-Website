@@ -17,7 +17,7 @@ function Footer() {
               Juno Hope Cheung
             </h3>
             <p className="text-gray-300 leading-relaxed">
-            Senior at NYU passionate about technology, problem-solving, and creating smooth experiences for users and systems alike.
+            NYU Computer Science graduate interested in technology, project coordination, and operational excellence. Passionate about leading teams, improving processes, and bringing people and technology together to deliver impactful solutions.
             </p>
           </div>
 
@@ -57,9 +57,6 @@ function Footer() {
               <p className="text-gray-300 text-sm">
                 avacheung17@gmail.com
               </p>
-              <p className="text-gray-300 text-sm mt-1">
-                ahc9434@nyu.edu
-              </p> 
               <p className="text-gray-300 text-sm mt-1">
                 New York, NY
               </p>

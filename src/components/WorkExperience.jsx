@@ -1,10 +1,41 @@
 function WorkExperience() {
   const experiences = [
     {
+  title: "IT Support Specialist",
+  company: "TikTok | ByteDance",
+  location: "New York, NY",
+  period: "April 2026 - Present",
+  description:
+    "Manage endpoint support, IT asset lifecycle operations, and workplace technology across TikTok's NYC and Chicago offices.",
+  responsibilities: [
+    "Provide Tier 1 and Tier 2 endpoint support across Windows, macOS, iOS, and Android, resolving hardware, software, and connectivity issues",
+    "Manage device lifecycle operations, including laptop imaging, provisioning, deployment, inventory audits, returns, and hardware repairs through Apple GSX",
+    "Coordinate employee onboarding, device configuration, user training, enterprise application support, and Service Desk ticket resolution",
+    "Serve as the primary IT point of contact for building events and conference room technology, overseeing AV inspections, equipment setup, and troubleshooting",
+    "Provide remote IT support for employees across NYC and Chicago offices",
+    "Develop standard operating procedures and maintain IT asset and device compliance documentation"
+  ],
+  technologies: [
+    "IT Asset Management (ITAM)",
+    "Apple GSX",
+    "Endpoint Provisioning & Imaging",
+    "Device Lifecycle Management",
+    "IT Auditing & Compliance",
+    "Hardware Diagnostics & Repair",
+    "Lark",
+    "Zoom",
+    "Windows",
+    "macOS",
+    "iOS",
+    "Android",
+    "AV & Conference Room Systems"
+  ]
+},
+    {
       title: "IT Classroom Support Lead (CETG PT Captain)",
       company: "NYU Stern School of Business",
       location: "New York, NY",
-      period: "January 2024 - Present",
+      period: "January 2024 - April 2026",
       description: "Leading technical support operations and managing classroom IT infrastructure.",
       responsibilities: [
         "Led troubleshooting and resolution of Tier 1 & Tier 2 technical incidents, reducing downtime by 20%",

@@ -35,13 +35,13 @@ function Hero() {
 
         {/* Title/Tagline */}
         <p className="text-xl md:text-2xl text-blue-400 mb-4 font-semibold">
-          CS @ NYU | IT Support Lead
+          CS @ NYU | IT @ TikTok
         </p>
 
         {/* Short Bio */}
         <div className="bg-black/50 border border-blue-500/20 p-8 mb-12 max-w-3xl mx-auto backdrop-blur-sm">
           <p className="text-lg text-gray-300 leading-relaxed">
-            Senior Computer Science student at NYU focused on bridging people and technology, using curiosity and analytics to make systems work better for everyone.
+            NYU Computer Science graduate with experience in IT operations, team leadership, and cross-functional coordination. Passionate about leading projects, optimizing processes, and bringing people together to deliver impactful solutions at the intersection of business and technology.
           </p>
         </div>
 

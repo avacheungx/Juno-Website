@@ -1,130 +1,202 @@
+
 function Skills() {
   const skillCategories = [
     {
-      category: "Programming Languages",
+      category: "IT Operations & Infrastructure",
+      icon: "🖥️",
+      description: "Endpoint support and workplace technology",
+      skills: [
+        "IT Asset Management",
+        "Endpoint Support",
+        "Device Imaging & Provisioning",
+        "Hardware Diagnostics & Repair",
+        "Apple GSX",
+        "Windows",
+        "macOS",
+        "iOS & Android",
+        "AV Systems",
+        "Conference Room Technology"
+      ]
+    },
+    {
+      category: "Programming & Development",
       icon: "💻",
+      description: "Computer science and software development",
       skills: [
-        { name: "JavaScript", level: 90 },
-        { name: "Python", level: 80 },
-        { name: "Java", level: 80 },
-        { name: "Bash", level: 75 },
-        { name: "C/C++", level: 70 }
+        "JavaScript",
+        "Python",
+        "Java",
+        "C",
+        "Bash",
+        "React.js",
+        "Express.js",
+        "Flask",
+        "FastAPI",
+        "HTML & CSS"
       ]
     },
     {
-      category: "Frameworks & Libraries",
+      category: "Developer Tools & Databases",
       icon: "⚙️",
+      description: "Development environments and data management",
       skills: [
-        { name: "React.js", level: 90 },
-        { name: "Express.js", level: 80 },
-        { name: "Vue.js", level: 80 },
-        { name: "Flask", level: 85 },
-        { name: "FastAPI", level: 85 },
-        { name: "Django", level: 75 }
+        "Git",
+        "Docker",
+        "GitHub Actions",
+        "MongoDB",
+        "PostgreSQL",
+        "SQLite",
+        "VS Code",
+        "REST APIs"
       ]
     },
     {
-      category: "DevOps & Tools",
-      icon: "🛠️",
+      category: "Enterprise & Collaboration",
+      icon: "🌐",
+      description: "Workplace systems and team collaboration",
       skills: [
-        { name: "Git", level: 90 },
-        { name: "Docker", level: 85 },
-        { name: "MongoDB", level: 80 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "Google Maps API", level: 80 },
-        { name: "Figma", level: 75 }
+        "IT Service Management",
+        "IT Asset Auditing",
+        "Apple GSX",
+        "Lark",
+        "Zoom",
+        "Jira",
+        "Technical Documentation",
+        "SOP Development"
       ]
+    }
+  ];
+
+  const professionalSkills = [
+    {
+      title: "Team Leadership",
+      description:
+        "Training teammates, coordinating support workflows, and supporting day-to-day operations."
     },
     {
-      category: "IT & Enterprise Tools",
-      icon: "🔧",
-      skills: [
-        { name: "ServiceNow", level: 90 },
-        { name: "Hardware Repair", level: 90 },
-        { name: "AV Support", level: 90 },
-        { name: "Network Troubleshooting", level: 85 },
-        { name: "Jira", level: 85 },
-        { name: "Technical Documentation", level: 85 }
-      ]
+      title: "Project Coordination",
+      description:
+        "Organizing tasks, tracking operational issues, and coordinating resources to keep work moving."
+    },
+    {
+      title: "Process Improvement",
+      description:
+        "Identifying recurring issues, analyzing trends, and improving workflows and documentation."
+    },
+    {
+      title: "Cross-Functional Collaboration",
+      description:
+        "Working with employees and teams to coordinate support, equipment, and workplace technology."
     }
   ];
 
   return (
     <section id="skills" className="py-20 px-4 bg-black">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-blue-400">
-          Tech Stack & Skills
-        </h2>
-        <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-          Technologies and tools I work with to bring ideas to life
-        </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {skillCategories.map((category, index) => (
+        {/* Section Header */}
+        <div className="text-center mb-14">
+          <p className="text-blue-400 text-sm uppercase tracking-[0.3em] mb-3">
+            My Toolkit
+          </p>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            Skills & Technologies
+          </h2>
+          <p className="text-gray-400 max-w-2xl mx-auto leading-relaxed">
+            A combination of technical knowledge, IT operations experience,
+            and people-focused skills built through work and education.
+          </p>
+        </div>
+
+        {/* Technology Categories */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {skillCategories.map((category) => (
             <div
-              key={index}
-              className="bg-zinc-900 border border-blue-500/30 p-6 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-blue-500/10"
+              key={category.category}
+              className="group bg-zinc-950 border border-zinc-800 p-6
+                hover:border-blue-500/60 transition-all duration-300
+                hover:-translate-y-1"
             >
-              <div className="flex items-center mb-6">
-                <span className="text-4xl mr-3">{category.icon}</span>
-                <h3 className="text-2xl font-bold text-white">
-                  {category.category}
-                </h3>
+              <div className="flex items-start gap-4 mb-6">
+                <div className="text-3xl bg-blue-500/10 p-3">
+                  {category.icon}
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-1
+                    group-hover:text-blue-400 transition-colors">
+                    {category.category}
+                  </h3>
+                  <p className="text-sm text-gray-500">
+                    {category.description}
+                  </p>
+                </div>
               </div>
 
-              <div className="space-y-4">
-                {category.skills.map((skill, i) => (
-                  <div key={i}>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-gray-300 font-medium">
-                        {skill.name}
-                      </span>
-                      <span className="text-blue-400 text-sm">
-                        {skill.level}%
-                      </span>
-                    </div>
-                    <div className="w-full bg-zinc-800 h-2.5 overflow-hidden border border-blue-500/20">
-                      <div
-                        className="bg-blue-500 h-2.5 transition-all duration-1000 ease-out"
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
-                  </div>
+              <div className="flex flex-wrap gap-2">
+                {category.skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-2 text-sm text-gray-300
+                      bg-zinc-900 border border-zinc-800
+                      hover:bg-blue-500/10 hover:border-blue-500/40
+                      hover:text-blue-300 transition-all duration-200"
+                  >
+                    {skill}
+                  </span>
                 ))}
               </div>
             </div>
           ))}
         </div>
 
-        {/* Soft Skills */}
-        <div className="mt-12 bg-black border-2 border-blue-500 p-8 shadow-lg shadow-blue-500/20">
-          <h3 className="text-2xl font-bold mb-6 text-center text-white">
-            Professional Skills
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-            {[
-              "Problem Solving",
-              "Team Leadership",
-              "Agile Development",
-              "DevOps",
-              "Technical Support",
-              "System Administration",
-              "Process Documentation",
-              "Staff Training"
-            ].map((skill, index) => (
+        {/* Professional Skills */}
+        <div className="mt-20">
+          <div className="text-center mb-14">
+            <p className="text-blue-400 text-sm uppercase tracking-[0.3em] mb-3">
+              Beyond The Technical
+            </p>
+            <h3 className="text-center md:text-4xl font-bold text-white mb-3">
+              Leadership & Operations
+            </h3>
+            <p className="text-gray-400 max-w-2xl mx-auto">
+              Focused on coordinating people, improving processes, and
+              keeping teams and operations moving forward.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            {professionalSkills.map((skill, index) => (
               <div
-                key={index}
-                className="bg-blue-500/10 border border-blue-500/30 p-4 hover:bg-blue-500/20 hover:border-blue-500 transition-all duration-200"
+                key={skill.title}
+                className="flex gap-4 p-6 bg-zinc-950
+                  border border-zinc-800
+                  hover:border-blue-500/50 transition-all duration-300"
               >
-                <p className="font-semibold text-gray-300">{skill}</p>
+                <div className="flex-shrink-0 flex items-center justify-center
+                  w-10 h-10 border border-blue-500/30
+                  bg-blue-500/10 text-blue-400 font-bold">
+                  0{index + 1}
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-semibold text-white mb-2">
+                    {skill.title}
+                  </h4>
+                  <p className="text-sm text-gray-400 leading-relaxed">
+                    {skill.description}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
         </div>
+
       </div>
     </section>
   );
 }
 
 export default Skills;
+
 
